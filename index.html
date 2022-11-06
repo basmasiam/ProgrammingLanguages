@@ -22,46 +22,47 @@
         <label for="userAge">Enter your age :</label>
         <input id="userAge" type="number" name="userAge"><br><br>
       </div>
-      
-      <p class="questionStyle">Why do you want to learn programming?</p>
-      <input id="q1a" type="radio" name="question1" value="job">
-      <label for="question1A">To get a job.</label><br>
-      <input id="q1b" type="radio" name="question1" value="fun">
-      <label for="question1B">For fun!</label><br>
-      
-      <p class="questionStyle">What kind of application do you want to build?</p>
-      <input id="question2A" type="radio" name="question2" value="web">
-      <label for="question2A">Web</label><br>
-      <input id="question2B" type="radio" name="question2"value="mobile">
-      <label for="question2B">Mobile</label><br>
-      <input id="question2C" type="radio" name="question2" value="data">
-      <label for="question2C">Data Science</label><br>
-      
-      <p class="questionStyle">Which part of the application do you prefer to work?</p>
-      <input id="question3A" type="radio" name="question3" value="front">
-      <label for="question3A">Front End</label><br>
-      <input id="question3B" type="radio" name="question3" value="back">
-      <label for="question3B">Back End</label><br>
-      <input id="question3C" type="radio" name="question3" value="full">
-      <label for="question3C">Full Stack</label><br>
-      
-      
-      
-      <p class="questionStyle">Is this your first time to learn programming?</p>
-      <input id="question4A" type="radio" name="question4" value="yes">
-      <label for="question4A">Yes</label><br>
-      <input id="question4B" type="radio" name="question4" value="no">
-      <label for="question4B">No</label><br><br>
-      
+      <div class="answers">
+        <p class="questionStyle">Why do you want to learn programming?</p>
+        <input id="q1a" type="radio" name="question1" value="job">
+        <label for="question1A">To get a job.</label><br>
+        <input id="q1b" type="radio" name="question1" value="fun">
+        <label for="question1B">For fun!</label><br>
+        
+        <p class="questionStyle">What kind of application do you want to build?</p>
+        <input id="question2A" type="radio" name="question2" value="web">
+        <label for="question2A">Web</label><br>
+        <input id="question2B" type="radio" name="question2"value="mobile">
+        <label for="question2B">Mobile</label><br>
+        <input id="question2C" type="radio" name="question2" value="data">
+        <label for="question2C">Data Science</label><br>
+        
+        <p class="questionStyle">Which part of the application do you prefer to work?</p>
+        <input id="question3A" type="radio" name="question3" value="front">
+        <label for="question3A">Front End</label><br>
+        <input id="question3B" type="radio" name="question3" value="back">
+        <label for="question3B">Back End</label><br>
+        <input id="question3C" type="radio" name="question3" value="full">
+        <label for="question3C">Full Stack</label><br>
+        
+        
+        
+        <p class="questionStyle">Is this your first time to learn programming?</p>
+        <input id="question4A" type="radio" name="question4" value="yes">
+        <label for="question4A">Yes</label><br>
+        <input id="question4B" type="radio" name="question4" value="no">
+        <label for="question4B">No</label><br><br>
+      </div>
       <button type="submit">Show my programming Language</button>
     </form>
     </div>
     <div id="recommendation" class="hidden">
-      <p>Hello, <span id="name">__</span></p>  
-      <h2 id="language">__</h2>
+      <div class="hello">
+        <p> Hello, <span id="name">__</span></p>  
+        <h2 id="language">__</h2>
+      </div>
       <button type="reset" onclick="showForm()">Retake the survey</button>
     </div>
     
   </body>
   </html>
-</div> 

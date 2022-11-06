@@ -27,6 +27,7 @@ function getRecommendation(answer1,answer2,answer3,answer4){
   
   if(answer2==="data" ){
       return "Python"
+
     }  
     else if(answer2==="mobile"){
       return "Swift";
@@ -42,4 +43,9 @@ function getRecommendation(answer1,answer2,answer3,answer4){
     }
 }
 
-
+function showForm(){
+  document.getElementById("form").removeAttribute("class");
+  document.getElementById("recommendation").setAttribute("class","hidden");
+  let form = document.querySelector("form");
+  form.reset();
+}

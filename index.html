@@ -3,11 +3,59 @@
   <head>
     <link href="css/styles.css" type="text/css" rel="stylesheet"
     <script src="js/scripts.js"></script>
-    <title>Programming Languuage Suggester</title>
+    <title>Programming Language Suggester</title>
   </head>
   <body>
+    <h1>Programming Language Suggester</h1><br>
+    <h2>Want to learn coding, but don't know which language suits your goals?</h2>
+    <p>One of the most common questions we hear is, <em>“What programming language should I learn first?”</em>The answer is, "it depends!"<br> Our <strong>Suggester</strong> can put you at the first step of your learning journey. Answer the following questions and let the journey begins!
+</p>
+
 <form>
-  <label></label>
+  <label for="userName">Enter your name :</label>
+  <input id="userName" type="text" name="userName">
+<br>
+<br>
+  <label for="userAge">Enter your age :</label>
+  <input id="userAge" type="number" name="userAge">
+<br>
+<br>
+  <p>Why do you want to learn programming?</p>
+  <input id="q1a" type="radio" name="question1A">
+  <label for="question1A">To get a job.</label>
+  <input id="q1b" type="radio" name="question1B">
+  <label for="question1B">For fun!</label>
+<br>
+  
+ <p>What kind of application do you want to build?</p>
+  <input id="q2a" type="checkbox" name="question2A">
+  <label for="question2A">Web</label>
+  <input id="q2b" type="checkbox" name="question2B">
+  <label for="question2B">Mobile</label>
+  <input id="q2c" type="checkbox" name="question2C">
+  <label for="question2C">Data Science</label>
+<br>
+
+<p>Which part of the application do you prefer to work?</p>
+<input id="q3a" type="checkbox" name="question3A">
+<label for="question3A">Front End</label>
+<input id="q3b" type="checkbox" name="question3B">
+<label for="question3B">Back End</label>
+<input id="q3c" type="checkbox" name="question3C">
+  <label for="question3C">Full Stack</label>
+<br>
+
+<p>Is this your first time to learn programming?</p>
+<input id="q4a" type="checkbox" name="question4A">
+  <label for="question4A">Yes</label>
+  <input id="q4b" type="checkbox" name="question4B">
+  <label for="question4B">No</label>
+<br>
+
+  <button type="submit">Show my programming Language</button>
 </form>
+<div id="" class="hidden"></div>
+  <h1></h1>
+  <p>Hello,<span id="name">__</span></p>
   </body>
 </html>

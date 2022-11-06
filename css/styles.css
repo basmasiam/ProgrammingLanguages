@@ -1,3 +1,19 @@
 .hidden {
   display: none;
 }
+
+h1{
+  color: crimson;
+text-align: center;}
+
+.questionStyle{
+  color: rgb(6, 6, 84);
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.body{
+  padding: auto;
+  
+}

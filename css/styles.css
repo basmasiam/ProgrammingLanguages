@@ -4,7 +4,10 @@
 
 h1{
   color: crimson;
-text-align: center;}
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+font: size 500px;
+}
 
 .questionStyle{
   color: rgb(6, 6, 84);
@@ -14,6 +17,24 @@ text-align: center;}
 }
 
 .body{
+  border-style: dotted;
   padding: auto;
+  background-image: -moz-radial-gradient();
   
+}
+
+button{
+  color:darkmagenta;
+  text-align: center;
+  display: inline;
+  cursor: pointer;
+  background-color: rgb(201, 157, 192);
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  padding: 15px 10px;
+}
+button:hover{
+  color: rgb(201, 157, 192);
+  background-color: darkmagenta;
 }

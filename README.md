@@ -2,7 +2,7 @@
 
 #### By _**{Basma Siam}**_
 
-#### _{This web page is a very helpful tool for people who wants to enter programming world}_
+#### _This web page is a very helpful tool for people who wants to enter programming world_
 
 ## Technologies Used
 
@@ -12,18 +12,18 @@
 
 ## Description
 
-_{The webpage asks the user to enter some information and asks questions. Based on the user prefrences and entry, it suggests the suitable programming language}_
+The webpage asks the user to enter some information and asks questions. Based on the user prefrences and entry, it suggests the suitable programming language
 
 ## Setup/Installation Requirements
 
-* _`$ git clone https://github.com/basmasiam/ProgrammingLanguages.git`_
-* _Open index.html_
-* _Enter your name and age_
-* _answer the following questions_
-* _submit the form using the button below_
+* `$ git clone https://github.com/basmasiam/ProgrammingLanguages.git`
+* Open index.html
+* Enter your name and age
+* answer the following questions
+* submit the form using the button below
 
 ## License
 
-_{if run into any issues or have questions, ideas or concerns.  Pleae, contact me.}_
+if run into any issues or have questions, ideas or concerns.  Pleae, contact me.
 
 Copyright (c) _November 5th,2022_ _Basma Siam_

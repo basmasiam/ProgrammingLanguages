@@ -17,7 +17,7 @@ The webpage asks the user to enter some information and asks questions. Based on
 ## Setup/Installation Requirements
 
 * `$ git clone https://github.com/basmasiam/ProgrammingLanguages.git`
-* Open index.html
+* Open index.html in your browser or open the project folder in a text editor to edit
 * Enter your name and age
 * answer the following questions
 * submit the form using the button below
